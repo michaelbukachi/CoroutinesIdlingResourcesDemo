@@ -27,7 +27,8 @@ android:
     - android-$ANDROID_API
     - sys-img-armeabi-v7a-android-$EMULATOR_API
   licenses:
-    - ".+"
+    - '.+'
+    - 'android-sdk-license-.+'
 
 before_script:
   - chmod +x gradlew
